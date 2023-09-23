@@ -37,10 +37,41 @@ const invokeAction = async ({ action, id, name, phone, email }) => {
         throw error;
     }
 }
-// invokeAction({ action: 'list' });
-// invokeAction({ action: 'get', id: "e6ywwRe4jcqxXfCZOj_1e" });
-// invokeAction({ action: 'add', name: "Lui Lofaiet", email: "lui.l@gmail.com", phone: "(058) 587-5459" });
-// invokeAction({ action: 'remove', id: "dYRM_17rzQSEEm4p2dQ5F" });
 
 
 invokeAction(options);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// node index -a list
+// node index -a get -i e6ywwRe4jcqxXfCZOj_1e
+// node index -a add -n Lui Lofaiet -e lui.l@gmail.com -p 058-587-5459
+// node index -a remove -i Z5sbDlS7pCzNsnAHLtDJd
+
+
+
